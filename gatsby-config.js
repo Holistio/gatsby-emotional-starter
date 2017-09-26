@@ -1,17 +1,14 @@
 module.exports = {
-  siteMetaData: {
-    title: `Emotional Gatsby Starter`
-  },
   plugins: [
-    `gatsby-plugin-emotion`,
+    'gatsby-plugin-emotion',
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: `src/utils/typography`
+        pathToConfigModule: 'src/utils/typography'
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`
+      resolve: 'gatsby-plugin-google-analytics'
     }
   ]
 }
