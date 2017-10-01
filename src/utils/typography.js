@@ -1,4 +1,4 @@
-import ReactDOM from 'reactdom-server'
+import ReactDOM from 'react-dom/server'
 import React from 'react'
 import Typography from 'typography'
 import { GoogleFont } from 'react-typography'
