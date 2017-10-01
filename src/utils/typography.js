@@ -17,22 +17,22 @@ const options = {
       styles: ['400', '600']
     }
   ],
-  headersFontFamily: ['Josefin Sans', 'sans-serif'],
+  headerFontFamily: ['Josefin Sans', 'sans-serif'],
   bodyFontFamily: ['Merriweather', 'serif'],
-  scaleRation: 2.40
+  scaleRatio: 2.40
 }
 
 const typography = new Typography(options)
 
-if (process.env.NODE_ENV !== 'production') {
-  typography.injectStyles()
-  if (typeof document !== undefined) {
-    const googleFonts = ReactDOM.renderToStaticMarkup(
-      React.createFactory(GoogleFont)({ typography })
-    )
-    const head = document.getElementsByTagName('head')[0]
-    head.insertAdjacentHTML('beforeend', googleFonts)
-  }
-}
+// if (process.env.NODE_ENV !== 'production') {
+//   typography.injectStyles()
+//   if (typeof document !== undefined) {
+//     const googleFonts = ReactDOM.renderToStaticMarkup(
+//       React.createFactory(GoogleFont)({ typography })
+//     )
+//     const head = document.getElementsByTagName('head')[0]
+//     head.insertAdjacentHTML('beforeend', googleFonts)
+//   }
+// }
 
 export default typography

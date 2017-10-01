@@ -1,13 +1,22 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import styled from 'react-emotion'
 
-const TemplateWrapper = ({ children }) => {
-  <div>
+const Wrapper = styled('div')`
+  display: flex;
+  background-color: lightyellow;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+`
+
+const TemplateWrapper = ({ children }) => (
+  <Wrapper>
     <Helmet
       title="Emotional Gatsby Starter"
     />
     {children()}
-  </div>
-}
+  </Wrapper>
+)
 
 export default TemplateWrapper
