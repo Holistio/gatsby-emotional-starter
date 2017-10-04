@@ -1,6 +1,6 @@
 {
   "name": "gatsby-emotional-starter",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Gatsby starter package with Emotion",
   "main": "n/a",
   "author": "Cserei Zoltán <z@holist.io>",
@@ -10,16 +10,19 @@
     "emotion"
   ],
   "dependencies": {
-    "emotion": "^7.3.2",
-    "emotion-server": "^7.3.2",
+    "emotion": "^8.0.2-12",
+    "emotion-server": "^8.0.2-13",
+    "emotion-theming": "^8.0.2-10",
     "gatsby": "^1.9.50",
-    "gatsby-link": "^1.6.17",
+    "gatsby-link": "^1.6.18",
     "gatsby-plugin-emotion": "^1.1.8",
     "gatsby-plugin-google-analytics": "^1.0.7",
     "gatsby-plugin-manifest": "^1.0.8",
     "gatsby-plugin-react-helmet": "^1.0.6",
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.1",
-    "typography": "^0.16.6"
+    "react-emotion": "^8.0.2-13",
+    "typography": "^0.16.6",
+    "typography-theme-stardust": "^0.16.9"
   }
 }
